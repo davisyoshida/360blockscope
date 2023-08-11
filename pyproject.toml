@@ -1,0 +1,17 @@
+[tool.poetry]
+name = '360blockscope'
+version = '0.1.0'
+description = 'Block scoping for python'
+authors = ['Davis Yoshida <dyoshida@ttic.edu>']
+license = 'MIT'
+readme = 'README.md'
+packages = [
+    {include = 'blockscope'}
+]
+
+[tool.poetry.dependencies]
+python = '^3.9'
+
+[build-system]
+requires = ['poetry-core>=1.0.0']
+build-backend = 'poetry.core.masonry.api'
